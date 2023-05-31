@@ -1,11 +1,11 @@
-About libxcrypt
-===============
+About libxcrypt-feedstock
+=========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/libxcrypt-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/besser82/libxcrypt
 
 Package license: LGPL-2.1-or-later
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/libxcrypt-feedstock/blob/main/LICENSE.txt)
 
 Summary: Extended crypt library for descrypt, md5crypt, bcrypt, and others
 
