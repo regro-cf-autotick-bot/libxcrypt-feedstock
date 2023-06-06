@@ -1,5 +1,5 @@
 {% set name = "libxcrypt" %}
-{% set version = "4.4.34" %}
+{% set version = "4.4.35" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/besser82/libxcrypt/releases/download/v{{ version }}/libxcrypt-{{ version }}.tar.xz
-  sha256: bb3f467af21c48046ce662186eb2ddf078ca775c441fdf1c3628448a3833a230
+  sha256: a8c935505b55f1df0d17f8bfd59468c7c6709a1d31831b0f8e3e045ab8fd455d
 
 build:
   number: 0
