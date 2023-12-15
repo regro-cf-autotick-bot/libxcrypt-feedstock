@@ -10,7 +10,7 @@ source:
   sha256: e5e1f4caee0a01de2aee26e3138807d6d3ca2b8e67287966d1fefd65e1fd8943
 
 build:
-  number: 0
+  number: 1
   skip: true  # [win]
   run_exports:
     # The ABI is very stable
