@@ -20,7 +20,9 @@ fi
     --disable-failure-tokens
 
 make -j${CPU_COUNT}
-make check
+if [[ "${CONDA_BUILD_CROSS_COMPILATION-0}" != "1" ]]; then
+  make check
+fi
 
 if [[ "${OBSOLETE_API}" == "glibc" ]]; then
     install -c .libs/libcrypt.so.1.* "$PREFIX/lib/"
